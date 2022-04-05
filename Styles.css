@@ -1,33 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,600;1,300&display=swap');
 
-#Background {
+.Background {
 
-    background: url(./Images/WaveBG2.png);
-    background-position: top right;
+  /*  background-image: url(./Images/WaveBG2.png);
+  background-position: top right;
     background-repeat: no-repeat;
     background-size: 70% 100%;
+  */
+    width: 100%;
+    height:100%;
     
 
 }
 
+body{
+    
+    background-image: url(./Images/WaveBG2.png);
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 100vh;
+    overflow: hidden;
+}
+.iconMenuBig{
+    width: 64px;
+    height: 64px;
+    margin-top: 24px;
+    margin-left: 48px;
+}
 
 .WholeContent {
     height:fit-content;
     width:auto;
     margin: 0px auto;
-    
 }
 .DivLeft {
-
+    
     height: fit-content;
     width: 40%;
     float: left;
     margin-left: 48px;
+    margin-top: 24px;
 }
 .DivRight {
-
+    margin-right: 48px;
+    right: 0;
     height: fit-content;
-    width: 48%;
     float: right;
 }
 
