@@ -1,27 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,600;1,300&display=swap');
+
 #Background {
 
-    background: url(/Images/WaveBG.png);
+    background: url(/Images/WaveBG2.png);
     background-position: top right;
     background-repeat: no-repeat;
-    background-size: 60% 100%;
-  
+    background-size: 70% 100%;
+    
+
 }
+
 
 .WholeContent {
     height:fit-content;
     width:auto;
     margin: 0px auto;
-    padding: 5px;
+    
 }
 .DivLeft {
 
     height: fit-content;
-    width: 48%;
+    width: 40%;
     float: left;
+    margin-left: 48px;
 }
 .DivRight {
 
     height: fit-content;
     width: 48%;
     float: right;
+}
+
+.TextHome{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.Text{
+font-family: 'Zilla Slab', serif;
+}
+
+.Light{
+    font-weight: 300;
+}
+
+
+.SizeMedium{
+    font-size: 28px;
 }
