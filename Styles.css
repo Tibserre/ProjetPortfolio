@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,600;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;600&display=swap');
 
 .Background {
 
-  /*  background-image: url(./Images/WaveBG2.png);
-  background-position: top right;
-    background-repeat: no-repeat;
-    background-size: 70% 100%;
-  */
     width: 100%;
     height:100%;
     
@@ -25,12 +21,41 @@ body{
 .iconMenuBig{
     width: 64px;
     height: 64px;
-    margin-top: 24px;
-    margin-left: 48px;
+    margin-top: 4vh;
+    margin-left: 4vw;
 }
 
+.button{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+    
+   
+
+}
+
+.buttonContent{
+    display: inline-block;
+    vertical-align: middle;
+}
+.iconButton{
+    width: 24px;
+    height: 24px;
+}
+.iconSocial{
+    width:32px;
+    height: 32px;
+    padding-right: 16px;
+    padding-top: 8px;
+
+}
 .WholeContent {
-    height:fit-content;
+    height:auto;
     width:auto;
     margin: 0px auto;
 }
@@ -39,28 +64,51 @@ body{
     height: fit-content;
     width: 40%;
     float: left;
-    margin-left: 48px;
+    margin-left: 4vw;
     margin-top: 24px;
 }
 .DivRight {
-    margin-right: 48px;
+    margin-right: 4vw;
     right: 0;
     height: fit-content;
     float: right;
+}
+
+.HeaderMenu{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+    font-size: 16px;
+    
+}
+
+.blockFindMe{
+    margin-top: 10vh;
+}
+
+.TitleMenu{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 38px;
+    text-align: right;
 }
 
 .TextHome{
     padding-top: 8px;
     padding-bottom: 8px;
     font-family: 'Zilla Slab', serif;
-    font-weight: 300;
-    font-size: 22px;
+    font-weight: 400;
+    font-size: 28px;
 }
 
 .Text{
 font-family: 'Zilla Slab', serif;
 }
 
+.SizeSmall{
+    font-size: 18px;
+}
 .Light{
     font-weight: 300;
 }
@@ -69,3 +117,4 @@ font-family: 'Zilla Slab', serif;
 .SizeMedium{
     font-size: 28px;
 }
+
