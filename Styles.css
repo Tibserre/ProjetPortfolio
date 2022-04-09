@@ -42,6 +42,7 @@ body{
 .buttonContent{
     display: inline-block;
     vertical-align: middle;
+    
 }
 .iconButton{
     width: 24px;
@@ -72,6 +73,7 @@ body{
     right: 0;
     height: fit-content;
     float: right;
+    
 }
 
 .HeaderMenu{
@@ -92,6 +94,7 @@ body{
     font-weight: 300;
     font-size: 38px;
     text-align: right;
+   
 }
 
 .TextHome{
@@ -117,4 +120,48 @@ font-family: 'Zilla Slab', serif;
 .SizeMedium{
     font-size: 28px;
 }
+
+.effectUnderline{
+position: relative;
+height: 10px;
+width: 10px;
+}
+
+.basic-4 {
+    
+    font-weight: 300;
+    display: inline-block;
+    background: 
+        linear-gradient(#17C3B9 10% 10%) 
+        var(--p, 0) 100% /var(--d, 0)  3px
+        no-repeat;
+    transition: 0.3s, background-position 0s 0.3s;
+    
+  }
+  .basic-4:hover {
+    --d: 100%;
+    --p: 100%;
+
+  }
+
+  .test{
+    background-color: rgb(63, 21, 21);
+  }
+
+  .textButton{
+    height: 24px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 0px 6px 6px 0px;
+    font-family: 'Zilla Slab', serif;
+    font-size: 18px;
+    font-weight: 300;
+    background:  linear-gradient(#17c3ba 0 0) var(--p, 0) 100% /var(--d, 0)
+    no-repeat;
+    transition: 0.3s, background-position 0s 0.3s;
+  }
+  .textButton:hover {
+    --d: 100%;
+    --p: 100%;
+  }
 
