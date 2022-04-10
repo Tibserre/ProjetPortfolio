@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <html>
   <head>
     <title>Portfolio | Thibault Serre</title>
@@ -21,31 +21,47 @@
             <b>User experience</b>.
           </div>
           <div class="button">
-            <div class="buttonContent" style="height: 24px; width: 24px;">
+            <div class="buttonContent" style="height: 24px; width: 24px">
               <object data="./Images/Chevron.png" class="iconButton"></object>
             </div>
-            <div class="buttonContent textButton">
-              En savoir plus
-            </div>
+            <div class="buttonContent textButton">En savoir plus</div>
           </div>
-          <div class="blockFindMe">
+          <div class="blockFindMe" hidden>
             <div class="HeaderMenu">Me retrouver</div>
             <div class="button">
-              <div><ion-icon name="logo-github" class="iconSocial" ></ion-icon></div>
-              <div><ion-icon name="logo-linkedin" class="iconSocial"></ion-icon></div>
-              <div><ion-icon name="logo-figma" class="iconSocial"></ion-icon></div>
+              <div>
+                <ion-icon name="logo-github" class="iconSocial"></ion-icon>
+              </div>
+              <div>
+                <ion-icon name="logo-linkedin" class="iconSocial"></ion-icon>
+              </div>
+              <div>
+                <ion-icon name="logo-figma" class="iconSocial"></ion-icon>
+              </div>
             </div>
             <div class="Text Light SizeSmall">thibault.serre@outlook.com</div>
           </div>
         </div>
-        <div class="DivRight">
+        <div class="DivRight" id="Menu">
           <div class="HeaderMenu" style="text-align: right">Mes Projets</div>
-          <div class="TitleMenu "> <div class="basic-4">onepoint live</div> </div>
-          <div class="TitleMenu "><div class="basic-4">Live IT</div></div>
-          <div class="TitleMenu "><div class="basic-4">CrustBreak</div></div>
-          <div class="TitleMenu"><div class="basic-4">Mon portfolioT</div></div>
-          <div class="TitleMenu "><div class="basic-4">EPF Projets</div></div>
-          <div class="TitleMenu "><div class="basic-4">Formula EPF</div></div>
+          <div class="TitleMenu">
+            <div class="basic-4" id="onepointlive">onepoint live</div>
+          </div>
+          <div class="TitleMenu">
+            <div class="basic-4" id="Live IT">Live IT</div>
+          </div>
+          <div class="TitleMenu">
+            <div class="basic-4" id="CrustBreak">CrustBreak</div>
+          </div>
+          <div class="TitleMenu">
+            <div class="basic-4" id="Mon portfolio">Mon portfolio</div>
+          </div>
+          <div class="TitleMenu">
+            <div class="basic-4" id="EPF Projets">EPF Projets</div>
+          </div>
+          <div class="TitleMenu">
+            <div class="basic-4" id="Formula EPF">Formula EPF</div>
+          </div>
         </div>
       </div>
     </div>
@@ -57,5 +73,10 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <script>
+     $('.basic-4').mouseover(function() {
+   console.log(this.id);
+});
+    </script>
   </body>
 </html>
