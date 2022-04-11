@@ -3,7 +3,7 @@
 <html>
   <head>
     <title>Portfolio | Thibault Serre</title>
-    <link rel="stylesheet" href="Styles.css" />
+    <link rel="stylesheet" href="/Styles/StylesHome.css" />
   </head>
   <body>
     <div class="Background">
@@ -26,7 +26,7 @@
             </div>
             <div class="buttonContent textButton">En savoir plus</div>
           </div>
-          <div >
+          <div>
             <div class="blockFindMe" id="FindMeDiv">
               <div class="HeaderMenu">Me retrouver</div>
               <div class="button">
@@ -121,19 +121,44 @@
         <div class="DivRight" id="Menu">
           <div class="HeaderMenu" style="text-align: right">Mes Projets</div>
           <div class="TitleMenu">
-            <div class="basic-4" id="onepointlive">onepoint live</div>
+            <a
+              href="/Projects/onepointLive.html"
+              style="text-decoration: none; color: black"
+              ><div class="basic-4" id="onepointlive">onepoint live</div>
+            </a>
           </div>
           <div class="TitleMenu">
-            <div class="basic-4" id="Live IT">Live IT</div>
+            <a
+              href="/Projects/liveIT.html"
+              style="text-decoration: none; color: black"
+            >
+              <div class="basic-4" id="Live IT">Live IT</div>
+            </a>
           </div>
           <div class="TitleMenu">
-            <div class="basic-4" id="CrustBreak">CrustBreak</div>
+            <a
+              href="/Projects/CrustBreak.html"
+              style="text-decoration: none; color: black"
+            >
+              <div class="basic-4" id="CrustBreak">CrustBreak</div>
+            </a>
           </div>
           <div class="TitleMenu">
-            <div class="basic-4" id="Mon portfolio">Mon portfolio</div>
+            <a
+              href="/Projects/monPortfolio.html"
+              style="text-decoration: none; color: black"
+            >
+              <div class="basic-4" id="Mon portfolio">Mon portfolio</div></a
+            >
           </div>
+          <a
+              href="/Projects/epfProjets.html"
+              style="text-decoration: none; color: black"
+            >
           <div class="TitleMenu">
-            <div class="basic-4" id="EPF Projets">EPF Projets</div>
+            
+            <div class="basic-4" id="EPF Projets">EPF Projets</div></a
+            >
           </div>
           <div class="TitleMenu">
             <div class="basic-4" id="Formula EPF">Formula EPF</div>
@@ -149,37 +174,38 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
-    <script>$(".basic-4").mouseenter(function () {
-      console.log(this.id);
-      $("#FindMeDiv").fadeOut(0);
-      if ((this.id == "onepointlive")) {
-        $("#OnepointLiveDiv").fadeIn(0);
-      }
-      if ((this.id == "Live IT")) {
-        $("#LiveITDiv").fadeIn(0);
-      }
-      if ((this.id == "CrustBreak")) {
-        $("#CrustBreakDiv").fadeIn(0);
-      }
-      if ((this.id == "Mon portfolio")) {
-        $("#MonPortfolioDiv").fadeIn(0);
-      }
-      if ((this.id == "EPF Projets")) {
-        $("#EPFProjetsDiv").fadeIn(0);
-      }
-      if ((this.id == "Formula EPF")) {
-        $("#FormulaEPFDiv").fadeIn(0);
-      }
-    });
-    $(".basic-4").mouseleave(function () {
-      $("#FormulaEPFDiv").fadeOut(0);
-      $("#EPFProjetsDiv").fadeOut(0);
-      $("#MonPortfolioDiv").fadeOut(0);
-      $("#CrustBreakDiv").fadeOut(0);
-      $("#OnepointLiveDiv").fadeOut(0);
-      $("#LiveITDiv").fadeOut(0);
-      $("#FindMeDiv").fadeIn(0);
-    });
-</script>
+    <script>
+      $(".basic-4").mouseenter(function () {
+        console.log(this.id);
+        $("#FindMeDiv").fadeOut(0);
+        if (this.id == "onepointlive") {
+          $("#OnepointLiveDiv").fadeIn(100);
+        }
+        if (this.id == "Live IT") {
+          $("#LiveITDiv").fadeIn(0);
+        }
+        if (this.id == "CrustBreak") {
+          $("#CrustBreakDiv").fadeIn(0);
+        }
+        if (this.id == "Mon portfolio") {
+          $("#MonPortfolioDiv").fadeIn(0);
+        }
+        if (this.id == "EPF Projets") {
+          $("#EPFProjetsDiv").fadeIn(0);
+        }
+        if (this.id == "Formula EPF") {
+          $("#FormulaEPFDiv").fadeIn(0);
+        }
+      });
+      $(".basic-4").mouseleave(function () {
+        $("#FormulaEPFDiv").fadeOut(0);
+        $("#EPFProjetsDiv").fadeOut(0);
+        $("#MonPortfolioDiv").fadeOut(0);
+        $("#CrustBreakDiv").fadeOut(0);
+        $("#OnepointLiveDiv").fadeOut(0);
+        $("#LiveITDiv").fadeOut(0);
+        $("#FindMeDiv").fadeIn(0);
+      });
+    </script>
   </body>
 </html>
