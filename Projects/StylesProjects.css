@@ -1,0 +1,35 @@
+.iconMenu {
+  width: 48px;
+  height: 48px;
+ 
+  display: inline-block;
+}
+.Header{
+    margin-top: 4vh;
+    margin-left: 4vw;
+}
+
+.backIcon{
+    width: 32px;
+    height: 32px;
+    padding: 6px;
+    border-radius: 100%;
+    background-color: #17C3B9;
+    color: white;
+    display: inline-block;
+}
+.Background {
+
+    width: 100%;
+    height:100%;
+}
+
+body{
+    
+    background-image: url(/Images/BGStraight.png);
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 100vh;
+   
+}
