@@ -63,7 +63,7 @@ body{
 .DivLeft {
     
     height: fit-content;
-    width: 40%;
+    width: 50%;
     float: left;
     margin-left: 4vw;
     margin-top: 24px;
@@ -84,7 +84,9 @@ body{
 }
 
 .blockFindMe{
-    margin-top: 10vh;
+    width: 50%;
+    margin-top: 6vh;
+    
 }
 
 .TitleMenu{
@@ -98,6 +100,7 @@ body{
 }
 
 .TextHome{
+    width: 100%;
     padding-top: 8px;
     padding-bottom: 8px;
     font-family: 'Zilla Slab', serif;
@@ -165,3 +168,32 @@ width: 10px;
     --p: 100%;
   }
 
+
+
+.PreviewProject{
+    margin-left: 4vw;
+    margin-top: 6vh;
+    
+    
+}
+
+.PreviewTitle{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    font-size: 38px;
+    
+}
+
+.PreviewDate{
+    font-family: 'Zilla Slab', serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.PreviewBody{
+    margin-top: 2vh;
+    margin-left: 2vw;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 300;
+    font-size: 18px;
+}

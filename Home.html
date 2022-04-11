@@ -26,20 +26,96 @@
             </div>
             <div class="buttonContent textButton">En savoir plus</div>
           </div>
-          <div class="blockFindMe" hidden>
-            <div class="HeaderMenu">Me retrouver</div>
-            <div class="button">
-              <div>
-                <ion-icon name="logo-github" class="iconSocial"></ion-icon>
+          <div >
+            <div class="blockFindMe" id="FindMeDiv">
+              <div class="HeaderMenu">Me retrouver</div>
+              <div class="button">
+                <div>
+                  <ion-icon name="logo-github" class="iconSocial"></ion-icon>
+                </div>
+                <div>
+                  <ion-icon name="logo-linkedin" class="iconSocial"></ion-icon>
+                </div>
+                <div>
+                  <ion-icon name="logo-figma" class="iconSocial"></ion-icon>
+                </div>
               </div>
-              <div>
-                <ion-icon name="logo-linkedin" class="iconSocial"></ion-icon>
+              <div class="Text Light SizeSmall">thibault.serre@outlook.com</div>
+            </div>
+            <div id="Preview">
+              <div id="OnepointLiveDiv" class="PreviewProject" hidden>
+                <div>
+                  <div class="PreviewTitle">Onepoint Live</div>
+                  <div class="PreviewDate">Aout 2021 - Decembre 2021</div>
+                </div>
+                <div class="PreviewBody">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
               </div>
-              <div>
-                <ion-icon name="logo-figma" class="iconSocial"></ion-icon>
+              <div id="LiveITDiv" class="PreviewProject" hidden>
+                <div>
+                  <div class="PreviewTitle">Live IT</div>
+                  <div class="PreviewDate">Aout 2021 - Decembre 2021</div>
+                </div>
+                <div class="PreviewBody">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+              <div id="CrustBreakDiv" class="PreviewProject" hidden>
+                <div>
+                  <div class="PreviewTitle">CrustBreak</div>
+                  <div class="PreviewDate">Janvier 2022 - Juin 2022</div>
+                </div>
+                <div class="PreviewBody">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+              <div id="MonPortfolioDiv" class="PreviewProject" hidden>
+                <div>
+                  <div class="PreviewTitle">Mon Portfolio</div>
+                  <div class="PreviewDate">Avril 2022 - Mai 2022</div>
+                </div>
+                <div class="PreviewBody">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+              <div id="EPFProjetsDiv" class="PreviewProject" hidden>
+                <div>
+                  <div class="PreviewTitle">EPF Projets</div>
+                  <div class="PreviewDate">Septembre 2021 - Aujourd'hui</div>
+                </div>
+                <div class="PreviewBody">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+              <div id="FormulaEPFDiv" class="PreviewProject" hidden>
+                <div>
+                  <div class="PreviewTitle">Formula EPF</div>
+                  <div class="PreviewDate">Septembre 2020 - Septembre 2021</div>
+                </div>
+                <div class="PreviewBody">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
               </div>
             </div>
-            <div class="Text Light SizeSmall">thibault.serre@outlook.com</div>
           </div>
         </div>
         <div class="DivRight" id="Menu">
@@ -73,10 +149,37 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
-    <script>
-     $('.basic-4').mouseover(function() {
-   console.log(this.id);
-});
-    </script>
+    <script>$(".basic-4").mouseenter(function () {
+      console.log(this.id);
+      $("#FindMeDiv").fadeOut(0);
+      if ((this.id == "onepointlive")) {
+        $("#OnepointLiveDiv").fadeIn(0);
+      }
+      if ((this.id == "Live IT")) {
+        $("#LiveITDiv").fadeIn(0);
+      }
+      if ((this.id == "CrustBreak")) {
+        $("#CrustBreakDiv").fadeIn(0);
+      }
+      if ((this.id == "Mon portfolio")) {
+        $("#MonPortfolioDiv").fadeIn(0);
+      }
+      if ((this.id == "EPF Projets")) {
+        $("#EPFProjetsDiv").fadeIn(0);
+      }
+      if ((this.id == "Formula EPF")) {
+        $("#FormulaEPFDiv").fadeIn(0);
+      }
+    });
+    $(".basic-4").mouseleave(function () {
+      $("#FormulaEPFDiv").fadeOut(0);
+      $("#EPFProjetsDiv").fadeOut(0);
+      $("#MonPortfolioDiv").fadeOut(0);
+      $("#CrustBreakDiv").fadeOut(0);
+      $("#OnepointLiveDiv").fadeOut(0);
+      $("#LiveITDiv").fadeOut(0);
+      $("#FindMeDiv").fadeIn(0);
+    });
+</script>
   </body>
 </html>
