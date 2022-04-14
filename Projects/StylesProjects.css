@@ -1,23 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,600;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;600&display=swap');
+
 .iconMenu {
   width: 48px;
   height: 48px;
- 
-  display: inline-block;
 }
+
 .Header{
     margin-top: 4vh;
     margin-left: 4vw;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 
 .backIcon{
     width: 32px;
     height: 32px;
     padding: 6px;
+    margin-left: 2vw;
     border-radius: 100%;
-    background-color: #17C3B9;
+    background: #17C3B9;
     color: white;
-    display: inline-block;
+    transition: all 0.3s ease;
 }
+
+.backIcon:hover {
+    background: #0c5652;
+    transform: translateY(-6px);
+}
+
+
 .Background {
 
     width: 100%;
@@ -32,4 +45,39 @@ body{
     background-position: top right;
     height: 100vh;
    
+}
+
+.titleDiv{
+    width: 100wv;
+    display: flex;
+    justify-content: center;
+}
+
+.titletext{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 64px;
+    width: fit-content;
+
+}
+
+.CorpsContenant{
+    margin-top: 4vh;
+    width: 100%;
+    display: flex;
+
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.CorpsContenu{
+    width: 65%;
+    height: auto;
+}
+
+.TitreCorps{
+
 }
