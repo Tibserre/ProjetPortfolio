@@ -34,7 +34,7 @@
 .Background {
 
     width: 100%;
-    height:100%;
+    
 }
 
 body{
@@ -43,7 +43,7 @@ body{
     background-size: 70% 100%;
     background-repeat: no-repeat;
     background-position: top right;
-    height: 100vh;
+    
    
 }
 
@@ -59,11 +59,13 @@ body{
     font-family: 'Roboto Slab', serif;
     font-size: 64px;
     width: fit-content;
+    font-weight: 900;
 
 }
 
 .CorpsContenant{
     margin-top: 4vh;
+    margin-bottom: 8vh;
     width: 100%;
     display: flex;
 
@@ -76,8 +78,49 @@ body{
 .CorpsContenu{
     width: 65%;
     height: auto;
+    font-family: 'Zilla Slab', serif;
+    
 }
 
 .TitreCorps{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
 
+.CorpsCorps{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
+
+.ImageCorps{
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.ImageEtTexte{
+    display: flex;
+
+}
+
+.ImageCorpsHalf{
+    width: 50%;
+    border-radius: 12px;
+    margin-right: 8px;
+}
+
+.CorpsCorpsHalf{
+    width: 50%;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    margin-left: 8px;
 }
