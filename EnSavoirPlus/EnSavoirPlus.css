@@ -5,6 +5,7 @@
 
 .Experience{
     margin-left: 8vw;
+    margin-bottom: 24px;
 }
 
 .HeadExp{
@@ -31,6 +32,16 @@
     font-size: 20px;
 }
 
+.companyName{
+    font-weight: 600;
+}
+
+.PostOccupe{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
 .DetailExp{
     font-size: 14px;
     margin-bottom: 8px;
@@ -48,7 +59,7 @@
 
 .Projet{
    
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     margin-right: 2vw;
 
