@@ -19,8 +19,8 @@ body{
     overflow: hidden;
 }
 .iconMenuBig{
-    width: 64px;
-    height: 64px;
+    width: 3rem;
+    height: 3rem;
     margin-top: 4vh;
     margin-left: 4vw;
 }
@@ -80,7 +80,7 @@ body{
 .HeaderMenu{
     font-family: 'Roboto Slab', serif;
     font-weight: 800;
-    font-size: 16px;
+    font-size: 1rem;
     
 }
 
@@ -95,7 +95,7 @@ body{
     padding-bottom: 12px;
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
-    font-size: 38px;
+    font-size: 2.4rem;
     text-align: right;
    
 }
@@ -106,7 +106,7 @@ body{
     padding-bottom: 8px;
     font-family: 'Zilla Slab', serif;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.6rem;
 }
 
 .Text{
@@ -114,16 +114,12 @@ font-family: 'Zilla Slab', serif;
 }
 
 .SizeSmall{
-    font-size: 18px;
+    font-size: 1.2rem;
 }
 .Light{
     font-weight: 300;
 }
 
-
-.SizeMedium{
-    font-size: 28px;
-}
 
 .effectUnderline{
 position: relative;
@@ -158,7 +154,7 @@ width: 10px;
     padding-right: 8px;
     border-radius: 0px 6px 6px 0px;
     font-family: 'Zilla Slab', serif;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 300;
     background:  linear-gradient(#17c3ba 0 0) var(--p, 0) 100% /var(--d, 0)
     no-repeat;
@@ -181,14 +177,14 @@ width: 10px;
 .PreviewTitle{
     font-family: 'Roboto Slab', serif;
     font-weight: 600;
-    font-size: 38px;
+    font-size: 2rem;
     
 }
 
 .PreviewDate{
     font-family: 'Zilla Slab', serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.3rem;
 }
 
 .PreviewBody{
@@ -196,5 +192,5 @@ width: 10px;
     margin-left: 2vw;
     font-family: 'Zilla Slab', serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1.2rem;
 }

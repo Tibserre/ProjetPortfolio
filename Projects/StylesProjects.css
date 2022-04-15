@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;600&display=swap');
 
 .iconMenu {
-  width: 48px;
-  height: 48px;
+  width: 3rem;
+  height: 3rem;
 }
 
 .Header{
@@ -15,8 +15,8 @@
 }
 
 .backIcon{
-    width: 32px;
-    height: 32px;
+    width: 2rem;
+    height: 2rem;
     padding: 6px;
     margin-left: 2vw;
     border-radius: 100%;
@@ -85,13 +85,13 @@ body{
 .TitreCorps{
     font-family: 'Roboto Slab', serif;
     font-weight: 800;
-    font-size: 24px;
+    font-size: 1.8rem;
     margin-bottom: 18px;
     margin-top: 18px;
 }
 
 .CorpsCorps{
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 500;
     margin-bottom: 18px;
     margin-top: 18px;
@@ -118,7 +118,7 @@ body{
 
 .CorpsCorpsHalf{
     width: 50%;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 500;
     margin-bottom: 18px;
     margin-top: 18px;
