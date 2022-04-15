@@ -1,11 +1,11 @@
 .TitreEnSavoirPlus{
-    font-size: 32px;
+    font-size: 2.2rem;
     font-weight: 600;
 }
 
 .Experience{
     margin-left: 5vw;
-    margin-bottom: 24px;
+    margin-bottom: 2rem;
 }
 
 .HeadExp{
@@ -30,7 +30,7 @@
 
 .CompanyAndDate{
     width: max-content;
-    font-size: 20px;
+    font-size: 1.3rem;
 }
 
 .companyName{
@@ -38,19 +38,19 @@
 }
 
 .PostOccupe{
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 600;
     margin-bottom: 4px;
 }
 
 .DetailExp{
-    font-size: 14px;
+    font-size: 0.9rem;
     margin-bottom: 8px;
     font-weight: 500;
 }
 
 .ProjetsAssocies{
-    font-size: 14px;
+    font-size: 0.9rem;
     font-weight: 800;
 }
 
@@ -62,7 +62,7 @@
 
 .Projet{
    
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 600;
     margin-right: 2vw;
 
