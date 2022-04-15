@@ -39,7 +39,7 @@
 
 body{
     
-    background-image: url(/Images/BGStraight.png);
+    background-image: url(../Images/BGStraight.png);
     background-size: 70% 100%;
     background-repeat: no-repeat;
     background-position: top right;
