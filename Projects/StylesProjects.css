@@ -125,9 +125,19 @@ body{
     margin-left: 8px;
 }
 
-@media screen and (max-width: 950px) and (min-width: 625px) {
+@media only screen and (min-width: 768px) {
+   .Header{
+       margin-bottom: 2vh;
+   }
+   
     .iconMenu{
         height: 128px;
         width: 128px;
+    }
+
+    .backIcon{
+        width: 92px;
+        height: 92px;
+        margin-left: 6vw;
     }
 }
