@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,600;1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;600&display=swap");
 
-
-
 h1,
 h2,
 h3,
@@ -182,14 +180,11 @@ body {
 }
 
 @media only screen and (min-width: 10px) and (max-width: 700px) {
-
-  .DivLeft{
+  .DivLeft {
     width: 90%;
-    
+    margin-right: 4vw;
   }
-  .DivRight{
+  .DivRight {
     display: none;
   }
-  
 }
-

@@ -15,17 +15,19 @@
   <div class="Background">
     <object data="./Images/Logo Home.svg" class="iconMenuBig"></object>
 
-    <label >
-      <input type="checkbox">
-      <span class="menu"> <span class="hamburger"></span> </span>
-      <ul>
-        <li class="TextMenu"> <a href="./Projects/onepointLive.html">Onepoint Live</a> </li>
-        <li class="TextMenu"> <a href="#">Live IT</a> </li>
-        <li class="TextMenu"> <a href="#">CrustBreak</a> </li>
-        <li class="TextMenu"> <a href="#">Mon portfolio</a> </li>
-        <li class="TextMenu"> <a href="#">EPF Projets</a> </li>
-      </ul>
-      </label>
+    <ul class="menu">
+      <li><br><br><br><br><br><br></li>
+      <li><a class="menuItem" href="./Projects/onepointLive.html">Onepoint Live</a></li>
+      <li><a class="menuItem" href="#">Live IT</a></li>
+      <li><a class="menuItem" href="#">CrustBreak</a></li>
+      <li><a class="menuItem" href="#">Mon portfolio</a></li>
+      <li><a class="menuItem" href="#">EPF Projets</a></li>
+    </ul>
+    <button class="hamburger">
+      <!-- material icons https://material.io/resources/icons/ -->
+      <i class="menuIcon material-icons "><ion-icon name="menu-outline" style="width: 42px; height: 42px;"></ion-icon></i>
+      <i class="closeIcon material-icons"><ion-icon name="close-outline" style="width: 42px; height: 42px;" ></ion-icon></i>
+    </button>
 
     <div>
       <div class="DivLeft">
@@ -219,7 +221,31 @@
       $("#FindMeDiv").fadeIn(0);
     });
   </script>
+  <script>const menu = document.querySelector(".menu");
+    const menuItems = document.querySelectorAll(".menuItem");
+    const hamburger = document.querySelector(".hamburger");
+    const closeIcon = document.querySelector(".closeIcon");
+    const menuIcon = document.querySelector(".menuIcon");
 
+    function toggleMenu() {
+      if (menu.classList.contains("showMenu")) {
+        menu.classList.remove("showMenu");
+        closeIcon.style.display = "none";
+        menuIcon.style.display = "block";
+      } else {
+        menu.classList.add("showMenu");
+        closeIcon.style.display = "block";
+        menuIcon.style.display = "none";
+      }
+    }
+
+    hamburger.addEventListener("click", toggleMenu);
+
+    menuItems.forEach(
+      function (menuItem) {
+        menuItem.addEventListener("click", toggleMenu);
+      }
+    )</script>
 </body>
 
 </html>
