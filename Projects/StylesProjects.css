@@ -157,4 +157,15 @@ body{
     flex-wrap: wrap;
     font-size:1.4rem ;
     }
+
+    .CorpsContenant{
+        margin-top: 1vh;
+        margin-bottom: 8vh;
+        
+    }
+
+    .CorpsCorpsHalf{
+
+        font-size: 1.4rem;
+    }
 }
