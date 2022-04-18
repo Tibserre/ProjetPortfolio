@@ -113,13 +113,13 @@ body{
 }
 
 .ImageCorpsHalf{
-    width: 50%;
+
     border-radius: 12px;
     margin-right: 8px;
 }
 
 .CorpsCorpsHalf{
-    width: 50%;
+
     font-size: 1.2rem;
     font-weight: 500;
     margin-bottom: 18px;
@@ -151,5 +151,10 @@ body{
     .TitreCorps{
 
         font-size: 2rem;
+    }
+    .ImageEtTexte{
+        display: flex;
+    flex-wrap: wrap;
+    font-size:1.4rem ;
     }
 }
