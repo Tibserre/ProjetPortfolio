@@ -77,3 +77,9 @@
 .LinkProjet:hover{
     color: #17C3B9;
 }
+
+@media only screen and (max-width: 800px) and (min-width: 200px){
+.HeadExp{
+    flex-wrap: wrap;
+}
+ }

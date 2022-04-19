@@ -6,6 +6,13 @@
   height: 64px;
 }
 
+.iconMenuBig {
+    width: 64px;
+    height: 64px;
+    margin-top: 0vh;
+    margin-left: 0vw;
+  }
+
 .Header{
     margin-top: 4vh;
     margin-left: 4vw;
@@ -18,7 +25,6 @@
     width: 48px;
     height: 48px;
     padding: 6px;
-    margin-top: 4vh;
     margin-left: 4vw;
     border-radius: 100%;
     background: #17C3B9;
@@ -129,7 +135,7 @@ body{
 
 @media only screen and (max-width: 800px) and (min-width: 200px){
    .Header{
-       margin-top: 0;
+       margin-top: 4vh;
        margin-bottom: 2vh;
    }
    
