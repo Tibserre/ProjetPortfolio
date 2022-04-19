@@ -1,85 +1,110 @@
-.TitreEnSavoirPlus{
-    font-size: 2.2rem;
-    font-weight: 600;
+.TitreEnSavoirPlus {
+  font-size: 2.2rem;
+  font-weight: 600;
 }
 
-.Experience{
-    margin-left: 5vw;
-    margin-bottom: 2rem;
+.Experience {
+  margin-left: 5vw;
+  margin-bottom: 2rem;
 }
 
-.HeadExp{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-    margin-bottom: 6px;
+.HeadExp {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 6px;
 }
 
-.LogoDiv{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    width: 20%;
+.LogoDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: auto;
+  flex-wrap: wrap;
+}
+
+.logoEntreprise {
+  height: 35px;
+}
+
+.CompanyAndDate {
+  width: max-content;
+  font-size: 1.3rem;
+}
+
+.companyName {
+  font-weight: 600;
+}
+
+.PostOccupe {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.DetailExp {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.ProjetsAssocies {
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.Projets {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Projet {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-right: 2vw;
+}
+
+.LinkProjet {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+
+.LinkProjet:hover {
+  color: #17c3b9;
+}
+
+@media only screen and (max-width: 800px) and (min-width: 200px) {
+  .HeadExp {
     flex-wrap: wrap;
-}
+  }
 
-.logoEntreprise{
-    height: 35px;
-}
+  .LogoDiv{
+      margin-top: 1vh;
+      margin-bottom: 1vh;
+  }
+  .DetailExp{
+      font-size: 1.4rem;
+  }
+  .PostOccupe{
+      font-size: 1.4rem;
+  }
+  .CompanyAndDate{
+      font-size: 1.8rem;
+  }
+  .Experience{
+      margin-bottom: 3rem;
 
-.CompanyAndDate{
-    width: max-content;
-    font-size: 1.3rem;
-}
-
-.companyName{
-    font-weight: 600;
-}
-
-.PostOccupe{
-    font-size: 1rem;
-    font-weight: 600;
-    margin-bottom: 4px;
-}
-
-.DetailExp{
-    font-size: 1rem;
-    margin-bottom: 8px;
-    font-weight: 500;
-}
-
+  }
+  .companyName{
+      font-size: 2rem;
+  }
 .ProjetsAssocies{
-    font-size: 0.9rem;
-    font-weight: 800;
+    font-size: 1.4rem;
 }
-
 .Projets{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    font-size: 1.6rem;
 }
-
-.Projet{
-   
-    font-size: 1.1rem;
-    font-weight: 600;
-    margin-right: 2vw;
-
 }
-
-.LinkProjet{
-    text-decoration: none;
-    color: black;
-    transition: 0.3s
-}
-
-.LinkProjet:hover{
-    color: #17C3B9;
-}
-
-@media only screen and (max-width: 800px) and (min-width: 200px){
-.HeadExp{
-    flex-wrap: wrap;
-}
- }
