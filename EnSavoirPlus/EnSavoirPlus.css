@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;600&display=swap");
+
+
+
 .TitreEnSavoirPlus {
   font-size: 2.2rem;
   font-weight: 600;
@@ -76,6 +80,34 @@
   color: #17c3b9;
 }
 
+.BtnDownload{
+position: fixed;
+bottom: 2%;
+left: 2%;
+background-color: #17c3b9;
+color:white;
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: "Roboto Slab", serif;
+padding: 12px;
+border-radius: 10%;
+font-size: 1rem;
+transition: all 0.3s ease;
+}
+
+.BtnDownload:hover{
+  background: #0c5652;
+  transform: translateY(-6px);
+}
+
+.iconDwld{
+  height: 28px;
+  width: 28px;
+  margin-bottom: 8px
+}
+
+
 @media only screen and (max-width: 700px) and (min-width: 200px) {
   .HeadExp {
     flex-wrap: wrap;
@@ -111,5 +143,8 @@
   .logoEntreprise {
     margin-top: 6px;
     margin-bottom: 6px;
+  }
+  .BtnDownload{
+    
   }
 }
