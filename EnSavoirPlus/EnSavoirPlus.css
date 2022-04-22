@@ -81,30 +81,34 @@
     flex-wrap: wrap;
   }
 
-  .LogoDiv{
-      margin-top: 1vh;
-      margin-bottom: 1vh;
+  .LogoDiv {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
   }
-  .DetailExp{
-      font-size: 1.4rem;
+  .DetailExp {
+    font-size: 1.4rem;
   }
-  .PostOccupe{
-      font-size: 1.4rem;
+  .PostOccupe {
+    font-size: 1.4rem;
   }
-  .CompanyAndDate{
-      font-size: 1.8rem;
+  .CompanyAndDate {
+    font-size: 1.8rem;
   }
-  .Experience{
-      margin-bottom: 3rem;
+  .Experience {
+    margin-bottom: 3rem;
     margin-left: 0;
   }
-  .companyName{
-      font-size: 2rem;
+  .companyName {
+    font-size: 2rem;
   }
-.ProjetsAssocies{
+  .ProjetsAssocies {
     font-size: 1.4rem;
-}
-.Projets{
+  }
+  .Projets {
     font-size: 1.6rem;
-}
+  }
+  .logoEntreprise {
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
 }
