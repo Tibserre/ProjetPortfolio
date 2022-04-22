@@ -106,6 +106,7 @@
   }
   .Projets {
     font-size: 1.6rem;
+    flex-direction: column;
   }
   .logoEntreprise {
     margin-top: 6px;
